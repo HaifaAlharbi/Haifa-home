@@ -1,0 +1,75 @@
+
+
+<head>
+    <style>
+    input{
+        background-color:white;
+                       }
+                           button{ 	background-color:D26864;
+                               color:white;
+                               size:"20";
+                               
+                           }
+                       body{  	background-color:rgb(245, 237, 237);
+                               color:rgba(165, 42, 42, 0.555)   ;
+                             text-align: center;
+                           font-size:60; }
+                           p{font-size:25;}
+                           
+        </style>
+        
+    <title>calculator</title>
+    
+    </head>
+    
+    <body ><br><br><br>
+  
+    <form name="calculator"  >
+	    <table BORDER=4>  
+      
+   <input style="color:black; "size="13" height="20" type="textfield" name="ans" value=""><br>
+    
+    
+    <button type="button"  value="1"  onClick="document.calculator.ans.value+='1'">1</button>
+    
+    <button type="button"  value="2"  onClick="document.calculator.ans.value+='2'">2</button>
+    
+    <button type="button"  value="3"  onClick="document.calculator.ans.value+='3'">3</button>
+    
+    <button type="button" value="+"onClick="document.calculator.ans.value+='+'">+</button>
+    
+    <br>
+    
+    <button type="button"  value="4"  onClick="document.calculator.ans.value+='4'">4</button>
+    
+    <button type="button"  value="5"  onClick="document.calculator.ans.value+='5'">5</button>
+    
+    <button type="button"  value="6"  onClick="document.calculator.ans.value+='6'">6</button>
+    
+    <button  type="button" value="-"onClick="document.calculator.ans.value+='-'">-</button>
+    
+    <br>
+    
+    <button type="button"  onClick="document.calculator.ans.value+='7'">7</button>
+    <button type="button"  onClick="document.calculator.ans.value+='8'">8</button>
+    <button type="button"  onClick="document.calculator.ans.value+='9'">9</button>
+    <button type="button"value="*" onClick="document.calculator.ans.value+='*'">*</button>
+    <br>
+    <button type="button" value="0" onClick="document.calculator.ans.value+='0'">0</button>
+    <button type="reset" value="Reset">c</button>
+    <button type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+            =</button>
+        <button type="button" value="/" onClick="document.calculator.ans.value+='/'">/</button>
+  
+</table>    
+    </form>
+    
+    </body>
+    
+    </html>
+    
+     
+    
+     
+    
+    
